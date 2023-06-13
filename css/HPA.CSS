@@ -1,0 +1,56 @@
+body {
+    background-image: url('BG1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: arial;
+
+}
+
+
+.container {
+text-align: center;
+background-color: rgba(57, 127, 185, 0.8);
+padding: 30px;
+border-radius: 50px;
+
+}
+
+
+
+.container h1 {
+font-size: 28px;
+margin: 10px 0;
+position:10vh 
+}
+
+.btn {
+display: inline-block;
+padding: 10px 10px;
+font-size: 16px;
+text-decoration: none;
+color: #fff;
+background-color: hsl(41, 100%, 57%);
+border: none;
+border-radius: 9px;
+transition: background-color 0.3s;
+}
+
+.btn {
+    margin-right: 40px;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+
+.btn-keluar {
+    position: absolute;
+    top: 20px;
+    right: 70px;
+}
+
+.btn:hover {
+background-color: #75afed;
+}

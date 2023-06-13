@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beranda</title>
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="css/df.css">
+    
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran</title>
+    <link rel="stylesheet" href="css/pendaftaran.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pendaftaran</h1>
+        <div id="message"></div>
+        <form id="registrationForm" onsubmit="return register(event)">
+            <div class="form-group">
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+            </div>
+            <div class="form-group">
+                <label for="Nomor Lokasi">Lokasi Nomor Tambak Pengajuan</label>
+                <input type="Nomor Lokasi" id="Nomor Lokasi" name="Nomor Lokasi" placeholder="Masukkan Nomor Lokasi" required>
+            </div>
+            <div class="form-group">
+                <label for="Nomor Surat Pengantar">Nomor Surat Pengantar HGU Lahan Tambak </label>
+                <input type="Nomor Surat Pengantar" id="Nomor Surat Pengantar" name="Nomor Surat Pengantar" placeholder="Nomor Surat Pengantar" required>
+            </div>
+            <button type="submit" class="btn">Daftar</button>
+        </form>
+    <h3></h3> <a href="Homepage_pemohon.html"class="btn">Kembali</a><h3></h3>
+    </div>
+
+    <script src="js/registration.js"></script>
+</body>
+</html>
